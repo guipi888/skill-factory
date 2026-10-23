@@ -4,8 +4,10 @@ slug: skill-factory
 displayName: 技能创建器·Skill Factory
 version: "2.0.0"
 description: 想把自己的方法论做成技能？想新建/安装/发布/更新一个 WorkBuddy 技能（skill）？技能创建器·Skill Factory（skill factory / skill builder / create skill）是全功能技能创建与发布工具：当用户说"新建技能""创建技能""帮我做个技能""写一个技能""发布技能"时触发。执行流程：①重叠评估（与现有技能扫描重叠度，给出整合/升级/新建三分支结论）→②安全检查（自动审计 SKILL.md 安全风险）→③创建/升级 SKILL.md→④自动发布到虾评+GitHub+ClawHub+SkillHub。v2.0 新增技能整合评估与一键发布集成。触发词：新建技能、创建技能、做个技能、发布技能、skill factory、create skill、build a skill。
+author: guipi888
+license: MIT
 agent_created: true
-triggers:
+trigger:
   - 新建技能
   - 创建技能
   - 帮我做个技能
@@ -15,16 +17,16 @@ triggers:
   - 评估新技能
   - 技能是否重复
   - 帮我整合技能
-xiaping_trigger:
+trigger:
   - AI
   - 效率
   - 工具
   - 技能创建
   - 技能发布
   - 技能管理
-xiaping_category:
+category:
   - 效率工具
-xiaping_tags:
+tags:
   - AI工具
   - 技能创建
   - 技能发布
@@ -260,7 +262,7 @@ ls ~/.workbuddy/skills/ | sort
 name: 技能名称
 description: 一句话描述（50字内，说清楚什么时候用、用来干什么）
 agent_created: true
-triggers:
+trigger:
   - 触发词1
   - 触发词2
 ---
