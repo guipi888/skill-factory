@@ -1,37 +1,16 @@
 ---
 name: skill-factory
 slug: skill-factory
+skillhub_slug: guipi-skill-factory
 displayName: 技能创建器·Skill Factory
-version: "2.0.0"
-description: 想把自己的方法论做成技能？想新建/安装/发布/更新一个 WorkBuddy 技能（skill）？技能创建器·Skill Factory（skill factory / skill builder / create skill）是全功能技能创建与发布工具：当用户说"新建技能""创建技能""帮我做个技能""写一个技能""发布技能"时触发。执行流程：①重叠评估（与现有技能扫描重叠度，给出整合/升级/新建三分支结论）→②安全检查（自动审计 SKILL.md 安全风险）→③创建/升级 SKILL.md→④自动发布到虾评+GitHub+ClawHub+SkillHub。v2.0 新增技能整合评估与一键发布集成。触发词：新建技能、创建技能、做个技能、发布技能、skill factory、create skill、build a skill。
+version: "2.0.1"
+description: 想把自己的方法论做成技能？想新建/安装/发布/更新一个 WorkBuddy 技能（skill）却不知道从何下手？技能创建器·Skill Factory（skill factory / skill builder / skill generator / create skill）是全功能技能创建与发布 tool：当用户说「新建技能」「创建技能」「帮我做个技能」「写一个技能」「如何发布技能」「我想给 agent 加一个技能」时触发，让你的 agent 获得可复用的专业能力。执行流程：①重叠评估（与现有技能扫描重叠度，给出整合/升级/新建三分支结论）→②安全检查（自动审计 SKILL.md 安全风险）→③创建/升级 SKILL.md→④自动发布到虾评+GitHub+ClawHub+SkillHub，一站式走完创建到分发全流程。v2.0 新增技能整合评估与一键发布集成。Use when you want to turn your know-how into an installable agent skill. 触发词：新建技能、创建技能、做个技能、发布技能、skill factory、create skill、build a skill。
 author: guipi888
 license: MIT
 agent_created: true
-trigger:
-  - 新建技能
-  - 创建技能
-  - 帮我做个技能
-  - 写一个技能
-  - 安装技能
-  - 发布技能
-  - 评估新技能
-  - 技能是否重复
-  - 帮我整合技能
-trigger:
-  - AI
-  - 效率
-  - 工具
-  - 技能创建
-  - 技能发布
-  - 技能管理
-category:
-  - 效率工具
-tags:
-  - AI工具
-  - 技能创建
-  - 技能发布
-  - 效率工具
-  - 自媒体
+trigger: ["新建技能", "创建技能", "帮我做个技能", "写一个技能", "安装技能", "发布技能", "评估新技能", "技能是否重复", "帮我整合技能", "如何发布技能"]
+category: ["效率工具"]
+tags: ["AI工具", "技能创建", "技能发布", "技能管理", "效率工具", "自媒体"]
 ---
 
 # 技能创建器 v2.0
